@@ -1,4 +1,4 @@
-﻿name: Daily Cybersecurity Code Generator
+name: Daily Cybersecurity Code Generator
 
 on:
   schedule:
@@ -24,8 +24,8 @@ jobs:
 
       - name: Generate 10 Cybersecurity Scripts
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "sky360-tech"
+          git config --global user.email "tahmirhasanraid1@gmail.com"
 
           for i in $(seq 1 10); do
             python "${{ github.workspace }}/.github/scripts/cyber_changer.py"
